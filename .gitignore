@@ -1,0 +1,5 @@
+node_modules
+src/env.ts
+dist/*js
+src/json/tickets.json
+src/json/comments.json
