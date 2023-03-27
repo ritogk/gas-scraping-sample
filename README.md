@@ -1,4 +1,4 @@
-# zendesk のサポートデータを整形+集計してスプレッドシートに吐き出す GAS
+# GAS で Web スクレイピング
 
 ### Node.js のバージョンを変更
 
@@ -16,7 +16,7 @@ vim src/env.ts
 ### ビルド
 
 ```
-npm ci
+npm install
 npm run build
 ```
 
