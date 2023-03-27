@@ -1,14 +1,9 @@
-import { envInterface } from "./core/envInterface";
+import { envInterface } from "./core/envInterface"
 
 const env: envInterface = {
-  zendesk: {
-    email: "aaaa@example.com",
-    token: "123456789012345678901234567890",
+  scraping: {
+    baseUrl: "https://xxxx.xxxx.xx.xx/partsreview/?bi=1&ci=2&pn=%d",
   },
-  spreadSheet: {
-    spreadSheetId: "12345678",
-    sheetName: "sheet1",
-  },
-};
+}
 
-export { env };
+export { env }

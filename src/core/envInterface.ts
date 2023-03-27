@@ -1,11 +1,6 @@
 interface envInterface {
-  zendesk: {
-    email: string
-    token: string
-  }
-  spreadSheet: {
-    spreadSheetId: string
-    sheetName: string
+  scraping: {
+    baseUrl: string
   }
 }
 
