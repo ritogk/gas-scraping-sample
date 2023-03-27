@@ -19,10 +19,3 @@ vim src/env.ts
 npm install
 npm run build
 ```
-
-### デプロイ
-
-```
-npm run clasp-login
-npm run clasp-deploy
-```
